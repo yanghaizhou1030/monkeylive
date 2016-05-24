@@ -1,0 +1,15 @@
+env_set
+
+1. python setuptools
+	sudo apt-get install python-setuptools
+
+2. python-pip
+	sudo apt-get install python-pip
+
+3. virtualenv
+	1)sudo easy_install virtualenv
+	2)sudo apt-get install virtualenv
+
+4. Flask
+	pip install Flask
+	
