@@ -12,4 +12,14 @@ env_set
 
 4. Flask
 	pip install Flask
+
+5. python-dev & python-setuptools
+	sudo apt-get install python-dev python-setuptools
+
+6. Pillow
+	pip install pillow
+	#image process software python packages.
+7. Pyscreenshot
+	pip install pyscreenshot
+	#linux screen capture python packages.
 	
