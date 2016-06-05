@@ -2,9 +2,12 @@
 <title>{% block title %}Welcome{% endblock %} | MonkeyLive</title>
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 <div class="page">
-	<h1>MonkeyLive</h1>
+	<div class="topline">
+		<div class="logo"><img align=left src="{{ url_for('static', filename='img/logo.png')}}"></div>
+		<div>|MONKEYLIVE</div>
+	</div>
 	<div class="navigation">
-		<a href="{{ url_for('home') }}">home</a>
+		<a href="{{ url_for('home') }}">Home</a>
 	</div>
 	<div class="body">
 	{% block body %}{% endblock %}

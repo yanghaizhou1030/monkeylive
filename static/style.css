@@ -4,29 +4,35 @@ body {
 	font-size: 12px;
 }
 
+.logo img{
+	width:25px;
+	height:25px;
+}
+
 div.page div.body {
 	padding: 10px;
 }
 
 div.page {
 	background: white;
-	border: 1px solid #6ECCC4;
+	border: 1px solid #3C3C5A;
 	width: 700px;
 	margin: 30px auto;
 }
 
-div.page h1 {
-	background: #6ECCC4;
+div.page div.topline {
+	background: #3C3C5A;
 	margin: 0;
 	padding: 10px 14px;
 	color: white;
 	letter-spacing: 1px;
 	text-shadow: 0 0 3px #24776F;
 	font-weight: normal;
+	font-size: 18px;
 }
 
 div.navigation {
-	background: #DEE9E8;
+	background: #B4B4BF;
 	padding: 4px 10px;
 	border-top: 1px solid #CCC;
 	border-bottom: 1px solid #EEE;
@@ -36,7 +42,7 @@ div.navigation {
 }
 
 div.page div.footer {
-	background: #eee;
+	background: #3C3C5A;
 	color: #888;
 	padding: 5px 10px;
 	font-size: 12px;
