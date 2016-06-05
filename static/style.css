@@ -5,8 +5,8 @@ body {
 }
 
 .logo img{
-	width:25px;
-	height:25px;
+	width: 25px;
+	height: 25px;
 }
 
 div.page div.body {
@@ -14,31 +14,37 @@ div.page div.body {
 }
 
 div.page {
-	background: white;
-	border: 1px solid #3C3C5A;
-	width: 700px;
-	margin: 30px auto;
+	background: #F0F0FF;
+	/*border: 1px solid #3C3C5A;*/
+	/*width: 700px;*/
+	/*margin: 30px auto;*/
+    margin: 0;
 }
 
 div.page div.topline {
 	background: #3C3C5A;
 	margin: 0;
-	padding: 10px 14px;
+	padding: 5px 10px;
 	color: white;
 	letter-spacing: 1px;
-	text-shadow: 0 0 3px #24776F;
+	/*text-shadow: 0 0 3px #24776F;*/
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 div.navigation {
-	background: #B4B4BF;
+	background: #B4B4D0;
 	padding: 4px 10px;
-	border-top: 1px solid #CCC;
-	border-bottom: 1px solid #EEE;
-	color: #888;
+	/*border-top: 1px solid #CCC;*/
+	/*border-bottom: 1px solid #EEE;*/
 	font-size: 12px;
 	letter-spacing: 0.5px;
+}
+
+div.page div.navigation a {
+    /*color: #3C3C5A;*//*dark blue*/
+    color: #3C3C5A;
+    font-weight: bold;
 }
 
 div.page div.footer {
