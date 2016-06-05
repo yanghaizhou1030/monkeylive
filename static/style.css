@@ -10,7 +10,7 @@ body {
 }
 
 div.page div.body {
-	padding: 16px;
+	padding: 20px 40px;
 }
 
 div.page {
@@ -34,7 +34,7 @@ div.page div.topline {
 
 div.navigation {
 	background: #B4B4D0;
-	padding: 4px 10px;
+	padding: 5px 10px;
 	/*border-top: 1px solid #CCC;*/
 	/*border-bottom: 1px solid #EEE;*/
 	font-size: 25px;
