@@ -25,7 +25,7 @@ class monkeyliveTestCase(unittest.TestCase):
 
 	def test_home_page(self):
 		rv = self.app.get('/')
-		assert 'Hello my web' in rv.data
+		assert 'Welcome to MonkeyLive' in rv.data
 
 
 if __name__=='__main__':

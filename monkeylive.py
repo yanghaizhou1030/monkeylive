@@ -39,8 +39,8 @@ def init_db():
 
 @app.route('/')
 def home():
-	return 'Hello my web!'
-
+	# return 'Hello my web!'
+	return render_template('home.html')
 
 if __name__ == '__main__':
 	app.debug = True
