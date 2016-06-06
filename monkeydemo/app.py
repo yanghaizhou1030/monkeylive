@@ -2,13 +2,14 @@
 from flask import Flask, render_template, Response
 
 # emulated camera
-from camera import Camera
+# from camera import Camera
 
 # Raspberry Pi camera module (requires picamera package)
 #from camera_pi import Camera #TODO:need install correct env.
 
 # capture displayscreen image data.
-#from camera_capture_screen import Camere #TODO:need to debug.
+from camera_screen import Camera
+#TODO:need to debug.
 
 app = Flask(__name__)
 

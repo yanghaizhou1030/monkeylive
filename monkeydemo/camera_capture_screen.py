@@ -2,8 +2,8 @@ import time
 import io
 import threading
 import numpy as np
-import ImageGrab
-
+#import ImageGrab
+import pyscreenshot as ImageGrab
 
 class Camera(object):
     thread = None  # background thread that reads frames from camera
